@@ -6,21 +6,17 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "webpack --mode production",
-        "start": "webpack-dev-server --open --mode development"
+        "start": "webpack-dev-server --open --mode development",
+        "api": "json-server initialState.json"
     },
     "keywords": [],
     "author": "Agustin Zamar <agustinzamar33@gmail.com>",
     "license": "ISC",
     "dependencies": {
-        "babel-eslint": "^10.1.0",
-        "eslint": "^7.1.0",
-        "eslint-config-airbnb": "^18.1.0",
-        "eslint-plugin-import": "^2.20.2",
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-react": "^7.20.0",
         "prop-types": "^15.7.2",
         "react": "^16.13.1",
-        "react-dom": "^16.13.1"
+        "react-dom": "^16.13.1",
+        "react-router-dom": "^5.2.0"
     },
     "devDependencies": {
         "@babel/core": "^7.10.1",
